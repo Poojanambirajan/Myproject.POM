@@ -1,7 +1,6 @@
 package pageobject;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.edge.EdgeDriver;
 
 public class BasePage {
@@ -14,7 +13,7 @@ public class BasePage {
 	
 	}
 	
-	protected void open(final String Url) {
+	protected void open( String Url) {
 		this .driver.get("https://advantageonlineshopping.com/#/");
 	}
 	protected void max() {
@@ -23,12 +22,12 @@ public class BasePage {
 
 	
 protected void get(By image,By h1,By h2,By h3,By h4,By img2) {
-		 driver.findElement(image);
-		 driver.findElement(h1);
-		 driver.findElement(h2);
-		 driver.findElement(h3);
-		 driver.findElement(h4);
-		 driver.findElement(img2);
+		 driver.findElement(image).click();
+		 driver.findElement(h1).click();
+		 driver.findElement(h2).click();
+		 driver.findElement(h3).click();
+		 driver.findElement(h4).click();
+		 driver.findElement(img2).click();
 		}
 protected void click(By  buynow) {
 		 driver.findElement(buynow).click();

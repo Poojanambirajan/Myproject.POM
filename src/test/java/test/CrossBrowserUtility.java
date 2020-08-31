@@ -1,4 +1,4 @@
-package browser;
+package test;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -27,7 +27,6 @@ public class CrossBrowserUtility {
 	}
 		dafault:
 		{
-		
 		System.setProperty("webdriver.edge.driver",path+"msedgedriver.exe");
 		driver=new EdgeDriver();
 		driver.manage().window().maximize();

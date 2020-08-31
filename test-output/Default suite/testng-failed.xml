@@ -3,13 +3,25 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="test.TestCase">
+      <class name="test.DemoTest">
         <methods>
-          <include name="TestCase6"/>
-          <include name="Setup"/>
-          <include name="close"/>
+          <include name="register"/>
+          <include name="sign_in"/>
+          <include name="sign_in1"/>
+          <include name="radiobutton_assert"/>
+          <include name="get_lang"/>
+          <include name="get_logo"/>
+          <include name="dropdown_assert"/>
+          <include name="navigate_to"/>
+          <include name="get_signin"/>
+          <include name="assert_test_text"/>
+          <include name="get_link"/>
+          <include name="setBrowserConfig"/>
+          <include name="get_title"/>
+          <include name="checkbox_assert"/>
+          <include name="switch_click"/>
         </methods>
-      </class> <!-- test.TestCase -->
+      </class> <!-- test.DemoTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

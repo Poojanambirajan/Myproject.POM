@@ -4,8 +4,6 @@ import org.openqa.selenium.WebDriver;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 
-import browser.CrossBrowserUtility;
-
 public class BaseCases {
 
 	WebDriver driver;
